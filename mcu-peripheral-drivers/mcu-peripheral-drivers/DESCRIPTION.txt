@@ -1,0 +1,1 @@
+Reusable STM32 peripheral drivers and learning examples for GPIO, EXTI, timers, PWM, UART, ADC, DMA, I2C, SPI, RTC, Flash and watchdogs.
