@@ -1,0 +1,14 @@
+Day 03 verification result
+
+CMake configure status: 0
+CMake build status: 0
+CTest status: 0
+
+Simulation output:
+irq=100 accepted=yes pending=1
+irq=104 accepted=no pending=1
+irq=109 accepted=no pending=1
+irq=133 accepted=yes pending=2
+irq=165 accepted=yes pending=3
+consumed_events=3
+
