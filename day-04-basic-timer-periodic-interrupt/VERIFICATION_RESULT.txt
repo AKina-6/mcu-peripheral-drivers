@@ -1,0 +1,38 @@
+Day 04 automated verification
+
+CMake configure status: 0
+CMake build status: 0
+CTest status: 0
+
+CTest output:
+Internal ctest changing into directory: /mnt/data/day04_timer_37tl10h5/build
+Test project /mnt/data/day04_timer_37tl10h5/build
+    Start 1: periodic_timer_tests
+1/2 Test #1: periodic_timer_tests .............   Passed    0.00 sec
+    Start 2: tick_dispatcher_tests
+2/2 Test #2: tick_dispatcher_tests ............   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.00 sec
+
+Simulation output:
+t=500 ms led_event=1
+t=1000 ms led_event=2
+t=1000 ms sensor_event=1
+t=1500 ms led_event=3
+t=2000 ms led_event=4
+t=2000 ms sensor_event=2
+t=2000 ms telemetry_event=1
+t=2500 ms led_event=5
+t=3000 ms led_event=6
+t=3000 ms sensor_event=3
+t=3500 ms led_event=7
+t=4000 ms led_event=8
+t=4000 ms sensor_event=4
+t=4000 ms telemetry_event=2
+t=4500 ms led_event=9
+t=5000 ms led_event=10
+t=5000 ms sensor_event=5
+summary led=10 sensor=5 telemetry=2
+
